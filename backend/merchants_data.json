@@ -1,0 +1,2042 @@
+{
+  "1": {
+    "merchantId": "1",
+    "status": "approved",
+    "documents": {
+      "selfie": {
+        "path": "uploads/1_1758909090455_selfie",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "riskScore": 0.1,
+        "confidenceScore": 0.99609375,
+        "uploadedAt": "2025-09-26T17:51:40.670Z",
+        "verifiedAt": "2025-09-29T16:56:56.458Z",
+        "liveness": false,
+        "qualityScore": 0.6984374999999999,
+        "fraudProbability": 1,
+        "faceAttributes": {
+          "boundingPoly": {
+            "vertices": [
+              {
+                "x": 232,
+                "y": 175
+              },
+              {
+                "x": 660,
+                "y": 175
+              },
+              {
+                "x": 660,
+                "y": 672
+              },
+              {
+                "x": 232,
+                "y": 672
+              }
+            ],
+            "normalizedVertices": []
+          },
+          "rollAngle": -1.4267222881317139,
+          "panAngle": 0.08311672508716583,
+          "tiltAngle": -9.932462692260742,
+          "detectionConfidence": 0.99609375,
+          "landmarkingConfidence": 0.7227061986923218,
+          "joyLikelihood": "VERY_UNLIKELY",
+          "sorrowLikelihood": "VERY_UNLIKELY",
+          "angerLikelihood": "VERY_UNLIKELY",
+          "surpriseLikelihood": "VERY_UNLIKELY",
+          "underExposedLikelihood": "VERY_UNLIKELY",
+          "blurredLikelihood": "VERY_UNLIKELY",
+          "headwearLikelihood": "VERY_UNLIKELY"
+        },
+        "imageQuality": {
+          "dominantColors": [
+            {
+              "color": {
+                "red": 21,
+                "green": 24,
+                "blue": 45,
+                "alpha": null
+              },
+              "score": 0.45374348759651184,
+              "pixelFraction": 0.24379928410053253
+            },
+            {
+              "color": {
+                "red": 231,
+                "green": 231,
+                "blue": 234,
+                "alpha": null
+              },
+              "score": 0.09239699691534042,
+              "pixelFraction": 0.16100358963012695
+            },
+            {
+              "color": {
+                "red": 73,
+                "green": 43,
+                "blue": 32,
+                "alpha": null
+              },
+              "score": 0.012694433331489563,
+              "pixelFraction": 0.00831541232764721
+            }
+          ],
+          "brightness": 0.25211508783079634
+        },
+        "safetyChecks": {
+          "adult": "VERY_UNLIKELY",
+          "spoof": "VERY_UNLIKELY",
+          "medical": "UNLIKELY",
+          "violence": "UNLIKELY",
+          "racy": "UNLIKELY"
+        }
+      },
+      "pan": {
+        "path": "uploads/1_1758909100683_pan",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": "आयकर विभाग\nINCOME TAX DEPARTMENT\nPAN Holders' <FIRST> <MIDDLE> <SURNAME>\nFathers' <FIRST> <MIDDLE> <SURNAME>\nDate of birth <DD/MM/YYYY>\nPermanent Account Number\nPAN Number <AAAAA8888A>\nPAN Holders Signature\nभारत सरकार\nGOVT. OF INDIA\nPHOTO",
+          "panNumber": "AAAAA8888A"
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0.85,
+        "uploadedAt": "2025-09-26T17:51:45.421Z",
+        "verifiedAt": "2025-09-29T16:57:01.748Z"
+      },
+      "gst": {
+        "path": "uploads/1_1758909105430_gst",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": "PRAXTLAR\n2."
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-26T17:51:48.523Z",
+        "verifiedAt": "2025-09-29T16:57:04.152Z"
+      },
+      "bank": {
+        "path": "uploads/1_1758909108537_bank",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": "BBVA\nСЕСКО ЗЕЯМ\nDEPOSITS AND ACTIONS\nELECTRONIC WITHDRAWALS\nCATE\nCATE\nDESCRIPTION\nн"
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-26T17:51:52.089Z",
+        "verifiedAt": "2025-09-29T16:57:06.096Z"
+      }
+    },
+    "createdAt": "2025-09-26T17:51:40.669Z",
+    "updatedAt": "2025-09-29T16:57:06.096Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.5449999999999999,
+      "riskLevel": "medium",
+      "decision": "manual_review",
+      "reasons": [
+        "Low liveness score: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.1,
+        "identityRisk": 0.8,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "Low liveness score: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [],
+      "timestamp": "2025-09-29T16:57:06.096Z"
+    },
+    "rejectionReasons": [
+      "Missing required documents"
+    ],
+    "crossValidation": {
+      "validated": false,
+      "consistencyScore": 0,
+      "nameMatches": false,
+      "identifierMatches": false,
+      "issues": [
+        "PAN number not found in GST document"
+      ],
+      "riskScore": 1
+    },
+    "manuallyApproved": true
+  },
+  "2": {
+    "merchantId": "2",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/2_1759205422730_1.jpg",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {},
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:10:26.271Z",
+        "verifiedAt": "2025-09-30T04:12:38.681Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/2_1759205434330_2.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:10:36.921Z",
+        "verifiedAt": "2025-09-30T04:12:09.231Z"
+      },
+      "gst": {
+        "path": "uploads/2_1759205443987_3.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:10:47.697Z",
+        "verifiedAt": "2025-09-30T04:12:11.098Z"
+      },
+      "bank": {
+        "path": "uploads/2_1759205456094_4.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:10:58.214Z",
+        "verifiedAt": "2025-09-30T04:12:12.231Z"
+      }
+    },
+    "createdAt": "2025-09-26T18:35:06.407Z",
+    "updatedAt": "2025-09-30T09:55:14.400Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.5800000000000001,
+      "riskLevel": "medium",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.30000000000000004,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-30T04:12:38.681Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "manuallyApproved": true,
+    "profile": {
+      "businessName": "tradersTesting66",
+      "email": "2@example.com",
+      "createdAt": "2025-09-30T04:10:59.710Z",
+      "updatedAt": "2025-09-30T04:11:00.368Z"
+    }
+  },
+  "123": {
+    "merchantId": "123",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/123_1759138065992_1.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {},
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:27:50.637Z",
+        "verifiedAt": "2025-09-29T09:28:31.254Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/123_1759138065998_2.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:27:49.923Z",
+        "verifiedAt": "2025-09-29T09:28:29.511Z"
+      },
+      "gst": {
+        "path": "uploads/123_1759138066295_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:27:49.778Z",
+        "verifiedAt": "2025-09-29T09:27:49.778Z"
+      },
+      "bank": {
+        "path": "uploads/123_1759138066299_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:27:49.857Z",
+        "verifiedAt": "2025-09-29T09:27:49.857Z"
+      }
+    },
+    "createdAt": "2025-09-26T16:41:24.356Z",
+    "updatedAt": "2025-09-29T16:55:54.031Z",
+    "manuallyApproved": true,
+    "riskAssessment": {
+      "overallRiskScore": 0.5800000000000001,
+      "riskLevel": "medium",
+      "decision": "manual_review",
+      "reasons": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.3,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T09:28:31.254Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    }
+  },
+  "125": {
+    "merchantId": "125",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/125_1759225949543_1.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {},
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T09:52:33.665Z",
+        "verifiedAt": "2025-09-30T09:53:41.707Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/125_1759225960282_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T09:52:42.857Z",
+        "verifiedAt": "2025-09-30T09:52:42.857Z"
+      },
+      "gst": {
+        "path": "uploads/125_1759225970187_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T09:52:52.047Z",
+        "verifiedAt": "2025-09-30T09:52:52.047Z"
+      },
+      "bank": {
+        "path": "uploads/125_1759225979428_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T09:53:01.090Z",
+        "verifiedAt": "2025-09-30T09:53:01.090Z"
+      }
+    },
+    "createdAt": "2025-09-30T09:52:33.665Z",
+    "updatedAt": "2025-09-30T09:55:07.656Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.65,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.4,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-30T09:53:41.707Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "Traders shop",
+      "email": "125@example.com",
+      "createdAt": "2025-09-30T09:53:04.276Z",
+      "updatedAt": "2025-09-30T09:53:04.797Z"
+    },
+    "manuallyApproved": true
+  },
+  "1234": {
+    "merchantId": "1234",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/1234_1759139283657_1.jpg",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:48:07.407Z",
+        "verifiedAt": "2025-09-29T09:48:07.407Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/1234_1759139283661_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:48:07.429Z",
+        "verifiedAt": "2025-09-29T09:48:07.429Z"
+      },
+      "gst": {
+        "path": "uploads/1234_1759139283979_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:48:07.449Z",
+        "verifiedAt": "2025-09-29T09:48:07.449Z"
+      },
+      "bank": {
+        "path": "uploads/1234_1759139283984_4.png",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:48:07.813Z",
+        "verifiedAt": "2025-09-29T10:05:46.260Z"
+      }
+    },
+    "createdAt": "2025-09-29T09:48:07.407Z",
+    "updatedAt": "2025-09-29T16:55:01.024Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.6925000000000001,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (80%)",
+        "High-risk bank document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.675,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (80%)",
+        "High-risk bank document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T10:05:46.260Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    }
+  },
+  "12344": {
+    "merchantId": "12344",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/12344_1759165568058_1.jpg",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:06:13.221Z",
+        "verifiedAt": "2025-09-29T17:06:13.221Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/12344_1759165580122_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:06:24.198Z",
+        "verifiedAt": "2025-09-29T17:06:24.198Z"
+      },
+      "bank": {
+        "path": "uploads/12344_1759165591200_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:06:34.151Z",
+        "verifiedAt": "2025-09-29T17:06:34.151Z"
+      },
+      "address": {
+        "path": "uploads/12344_1759165600549_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:06:44.474Z",
+        "verifiedAt": "2025-09-29T17:06:44.474Z"
+      }
+    },
+    "createdAt": "2025-09-29T17:06:13.221Z",
+    "updatedAt": "2025-09-30T04:09:05.288Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.6875,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Suspiciously fast application completion"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.575,
+        "identityRisk": 0.7,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Submit GST registration for additional verification",
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T17:06:44.474Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "tradersTesting6",
+      "email": "12344@example.com",
+      "createdAt": "2025-09-29T17:06:43.947Z",
+      "updatedAt": "2025-09-29T17:06:44.531Z"
+    }
+  },
+  "12345": {
+    "merchantId": "12345",
+    "status": "approved",
+    "documents": {
+      "selfie": {
+        "path": "uploads/12345_1759226415071_1.jpg",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {},
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T10:00:18.864Z",
+        "verifiedAt": "2025-09-30T10:02:40.540Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/12345_1759226425431_2.jpg",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T10:00:27.022Z",
+        "verifiedAt": "2025-09-30T10:02:41.761Z"
+      },
+      "gst": {
+        "path": "uploads/12345_1759226433204_3.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T10:00:34.884Z",
+        "verifiedAt": "2025-09-30T10:01:30.567Z"
+      },
+      "bank": {
+        "path": "uploads/12345_1759226442047_4.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T10:00:43.693Z",
+        "verifiedAt": "2025-09-30T10:01:32.163Z"
+      }
+    },
+    "createdAt": "2025-09-30T10:00:18.864Z",
+    "updatedAt": "2025-09-30T10:02:41.761Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.6399999999999999,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (90%)",
+        "High-risk pan document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.5,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (90%)",
+        "High-risk pan document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-30T10:02:41.761Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "Traders shop",
+      "email": "12345@example.com",
+      "createdAt": "2025-09-30T10:00:47.098Z",
+      "updatedAt": "2025-09-30T10:00:47.599Z"
+    },
+    "manuallyApproved": true
+  },
+  "123445": {
+    "merchantId": "123445",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/123445_1759166176631_1.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {},
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:16:21.264Z",
+        "verifiedAt": "2025-09-29T17:19:53.378Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/123445_1759166190905_2.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:16:34.624Z",
+        "verifiedAt": "2025-09-29T17:19:55.024Z"
+      },
+      "gst": {
+        "path": "uploads/123445_1759166248472_3.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:17:30.765Z",
+        "verifiedAt": "2025-09-29T17:19:56.394Z"
+      },
+      "bank": {
+        "path": "uploads/123445_1759166258693_4.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T17:17:41.569Z",
+        "verifiedAt": "2025-09-29T17:19:57.724Z"
+      }
+    },
+    "createdAt": "2025-09-29T17:16:21.264Z",
+    "updatedAt": "2025-09-30T04:09:08.654Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.52,
+      "riskLevel": "medium",
+      "decision": "manual_review",
+      "reasons": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.1,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T17:19:57.724Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "tradersTesting6",
+      "email": "123445@example.com",
+      "createdAt": "2025-09-29T17:17:42.865Z",
+      "updatedAt": "2025-09-29T17:17:43.062Z"
+    },
+    "manuallyApproved": true
+  },
+  "123455": {
+    "merchantId": "123455",
+    "status": "rejected",
+    "documents": {
+      "gst": {
+        "path": "uploads/123455_1759139924268_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:58:49.012Z",
+        "verifiedAt": "2025-09-29T09:58:49.012Z"
+      },
+      "pan": {
+        "path": "uploads/123455_1759139924243_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:58:49.021Z",
+        "verifiedAt": "2025-09-29T09:58:49.021Z"
+      },
+      "bank": {
+        "path": "uploads/123455_1759139924274_1.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:58:49.044Z",
+        "verifiedAt": "2025-09-29T09:58:49.044Z"
+      },
+      "selfie": {
+        "path": "uploads/123455_1759139923931_4.png",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:58:49.063Z",
+        "verifiedAt": "2025-09-29T09:58:49.063Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      }
+    },
+    "createdAt": "2025-09-29T09:58:49.012Z",
+    "updatedAt": "2025-09-29T16:55:05.663Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.7024999999999999,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.575,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T09:58:49.064Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    }
+  },
+  "123456": {
+    "merchantId": "123456",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/123456_1759481100258_1.jpg",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {},
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:45:03.392Z",
+        "verifiedAt": "2025-10-03T08:47:08.262Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/123456_1759481109669_2.jpg",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:45:12.631Z",
+        "verifiedAt": "2025-10-03T08:47:06.444Z"
+      },
+      "gst": {
+        "path": "uploads/123456_1759481120659_3.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:45:22.364Z",
+        "verifiedAt": "2025-10-03T08:46:15.715Z"
+      },
+      "bank": {
+        "path": "uploads/123456_1759481129343_4.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:45:31.070Z",
+        "verifiedAt": "2025-10-03T08:46:17.330Z"
+      }
+    },
+    "createdAt": "2025-10-03T08:45:03.392Z",
+    "updatedAt": "2025-10-03T08:47:08.262Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.6399999999999999,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (90%)",
+        "High-risk pan document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.5,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (90%)",
+        "High-risk pan document (90%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-10-03T08:47:08.262Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "Traders shop",
+      "email": "123456@example.com",
+      "createdAt": "2025-10-03T08:45:38.570Z",
+      "updatedAt": "2025-10-03T08:45:38.426Z"
+    },
+    "manuallyApproved": true
+  },
+  "1234556": {
+    "merchantId": "1234556",
+    "status": "rejected",
+    "documents": {
+      "gst": {
+        "path": "uploads/1234556_1759163967262_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:39:29.589Z",
+        "verifiedAt": "2025-09-29T16:39:29.589Z"
+      },
+      "pan": {
+        "path": "uploads/1234556_1759163955162_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:39:19.420Z",
+        "verifiedAt": "2025-09-29T16:39:19.420Z"
+      },
+      "bank": {
+        "path": "uploads/1234556_1759140229548_4.png",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T10:03:54.092Z",
+        "verifiedAt": "2025-09-29T10:04:09.584Z"
+      },
+      "selfie": {
+        "path": "uploads/1234556_1759164295525_3.png",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:44:58.238Z",
+        "verifiedAt": "2025-09-29T16:44:58.238Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "address": {
+        "path": "uploads/1234556_1759163976829_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:39:39.467Z",
+        "verifiedAt": "2025-09-29T16:39:39.467Z"
+      }
+    },
+    "createdAt": "2025-09-29T10:03:54.021Z",
+    "updatedAt": "2025-09-29T16:55:10.129Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.6819999999999999,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk bank document (90%)",
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.64,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk bank document (90%)",
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T16:44:58.238Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "manuallyApproved": true,
+    "profile": {
+      "businessName": "tradersTesting6",
+      "email": "1234556@example.com",
+      "createdAt": "2025-09-29T16:44:57.495Z",
+      "updatedAt": "2025-09-29T16:44:58.272Z"
+    }
+  },
+  "1234558": {
+    "merchantId": "1234558",
+    "status": "rejected",
+    "documents": {
+      "selfie": {
+        "path": "uploads/1234558_1759164791893_1.jpg",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:53:16.145Z",
+        "verifiedAt": "2025-09-29T16:53:16.145Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/1234558_1759164802641_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:53:26.312Z",
+        "verifiedAt": "2025-09-29T16:53:26.312Z"
+      },
+      "bank": {
+        "path": "uploads/1234558_1759164813696_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:53:36.570Z",
+        "verifiedAt": "2025-09-29T16:53:36.570Z"
+      },
+      "address": {
+        "path": "uploads/1234558_1759164821742_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T16:53:44.603Z",
+        "verifiedAt": "2025-09-29T16:53:44.603Z"
+      }
+    },
+    "createdAt": "2025-09-29T16:53:16.145Z",
+    "updatedAt": "2025-09-29T16:55:13.623Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.6875,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Suspiciously fast application completion"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.575,
+        "identityRisk": 0.7,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Submit GST registration for additional verification",
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T16:53:44.603Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "tradersTesting6",
+      "email": "1234558@example.com",
+      "createdAt": "2025-09-29T16:53:44.087Z",
+      "updatedAt": "2025-09-29T16:53:44.546Z"
+    }
+  },
+  "12344545": {
+    "merchantId": "12344545",
+    "status": "rejected",
+    "documents": {
+      "pan": {
+        "path": "uploads/12344545_1759204791755_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T03:59:56.955Z",
+        "verifiedAt": "2025-09-30T03:59:56.955Z"
+      },
+      "selfie": {
+        "path": "uploads/12344545_1759204805157_1.jpg",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:00:07.948Z",
+        "verifiedAt": "2025-09-30T04:00:07.948Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "gst": {
+        "path": "uploads/12344545_1759204820787_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:00:22.645Z",
+        "verifiedAt": "2025-09-30T04:00:22.645Z"
+      },
+      "bank": {
+        "path": "uploads/12344545_1759204831983_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-30T04:00:33.829Z",
+        "verifiedAt": "2025-09-30T04:00:33.829Z"
+      }
+    },
+    "createdAt": "2025-09-30T03:59:56.955Z",
+    "updatedAt": "2025-09-30T04:08:56.156Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.7024999999999999,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.575,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-30T04:00:33.829Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "tradersTesting66",
+      "email": "12344545@example.com",
+      "createdAt": "2025-09-30T04:00:48.176Z",
+      "updatedAt": "2025-09-30T04:00:48.789Z"
+    }
+  },
+  "12345678": {
+    "merchantId": "12345678",
+    "status": "approved",
+    "documents": {
+      "selfie": {
+        "path": "uploads/12345678_1759479471255_1.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {},
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:17:56.122Z",
+        "verifiedAt": "2025-10-03T08:27:55.300Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "pan": {
+        "path": "uploads/12345678_1759479483307_2.jpg",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:18:07.204Z",
+        "verifiedAt": "2025-10-03T08:27:57.730Z"
+      },
+      "gst": {
+        "path": "uploads/12345678_1759479492917_3.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:18:15.432Z",
+        "verifiedAt": "2025-10-03T08:27:59.109Z"
+      },
+      "bank": {
+        "path": "uploads/12345678_1759479501627_4.png",
+        "status": "approved",
+        "verificationNotes": "Verified by admin",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.1,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-10-03T08:18:24.050Z",
+        "verifiedAt": "2025-10-03T08:28:00.891Z"
+      }
+    },
+    "createdAt": "2025-10-03T08:17:56.122Z",
+    "updatedAt": "2025-10-03T08:28:03.437Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.52,
+      "riskLevel": "medium",
+      "decision": "manual_review",
+      "reasons": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.1,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "Poor selfie quality: 0%",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-10-03T08:28:00.891Z"
+    },
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    },
+    "profile": {
+      "businessName": "Traders shop",
+      "email": "12345678@example.com",
+      "createdAt": "2025-10-03T08:18:29.846Z",
+      "updatedAt": "2025-10-03T08:18:30.033Z"
+    },
+    "manuallyApproved": true
+  },
+  "e600fdfbd8c1c86c": {
+    "merchantId": "e600fdfbd8c1c86c",
+    "status": "rejected",
+    "documents": {},
+    "createdAt": "2025-09-26T22:20:56.450Z",
+    "updatedAt": "2025-09-29T08:21:07.232Z",
+    "businessName": "tradersTesting",
+    "email": "prafulexperiment@gmail.com",
+    "phoneNumber": "Helloworld@123",
+    "riskAssessment": {
+      "overallRiskScore": 0.765,
+      "riskLevel": "high",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 1,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "No documents submitted",
+        "No selfie verification",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-26T22:21:19.813Z"
+    },
+    "manuallyApproved": true
+  },
+  "170f203b27cf2a0c": {
+    "merchantId": "170f203b27cf2a0c",
+    "status": "rejected",
+    "documents": {},
+    "createdAt": "2025-09-29T05:37:34.014Z",
+    "updatedAt": "2025-09-29T16:54:49.998Z",
+    "businessName": "tradersTesting",
+    "email": "prafulexperiment1@gmail.com",
+    "phoneNumber": "Helloworld@123",
+    "riskAssessment": {
+      "overallRiskScore": 0.765,
+      "riskLevel": "high",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 1,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "No documents submitted",
+        "No selfie verification",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T05:52:35.884Z"
+    },
+    "manuallyApproved": true
+  },
+  "b9a6c262d360c902": {
+    "merchantId": "b9a6c262d360c902",
+    "status": "rejected",
+    "documents": {},
+    "createdAt": "2025-09-29T06:59:34.857Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T06:59:35.255Z",
+      "updatedAt": "2025-09-29T06:59:34.857Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.725,
+      "riskLevel": "high",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 1,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "No documents submitted",
+        "No selfie verification"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T16:54:51.028Z"
+    },
+    "updatedAt": "2025-09-29T16:54:51.966Z"
+  },
+  "20dce260190bec4e": {
+    "merchantId": "20dce260190bec4e",
+    "status": "rejected",
+    "documents": {
+      "pan": {
+        "path": "uploads/20dce260190bec4e_1759129607841_1.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T07:06:50.751Z",
+        "verifiedAt": "2025-09-29T07:06:50.751Z"
+      }
+    },
+    "createdAt": "2025-09-29T07:05:56.315Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T07:05:56.455Z",
+      "updatedAt": "2025-09-29T07:05:56.315Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.575,
+      "riskLevel": "medium",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.5,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "Missing required document: selfie",
+        "No selfie verification"
+      ],
+      "recommendedActions": [
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T07:06:50.752Z"
+    },
+    "updatedAt": "2025-09-29T16:55:18.406Z"
+  },
+  "86985a3df90b3efe": {
+    "merchantId": "86985a3df90b3efe",
+    "status": "rejected",
+    "documents": {
+      "gst": {
+        "path": "uploads/86985a3df90b3efe_1759129863271_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T07:11:06.934Z",
+        "verifiedAt": "2025-09-29T07:11:06.934Z"
+      }
+    },
+    "createdAt": "2025-09-29T07:10:56.753Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T07:10:56.673Z",
+      "updatedAt": "2025-09-29T07:10:56.753Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.59,
+      "riskLevel": "medium",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.5,
+        "identityRisk": 0.9,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "Missing required document: pan",
+        "Missing required document: selfie",
+        "No selfie verification",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T07:11:06.934Z"
+    },
+    "updatedAt": "2025-09-29T16:55:22.015Z"
+  },
+  "07f2f44c5edec88b": {
+    "merchantId": "07f2f44c5edec88b",
+    "status": "rejected",
+    "documents": {
+      "gst": {
+        "path": "uploads/07f2f44c5edec88b_1759133395900_4.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T08:09:58.417Z",
+        "verifiedAt": "2025-09-29T08:09:58.417Z"
+      }
+    },
+    "createdAt": "2025-09-29T08:09:23.471Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T08:09:23.219Z",
+      "updatedAt": "2025-09-29T08:09:23.471Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.59,
+      "riskLevel": "medium",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.5,
+        "identityRisk": 0.9,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "Missing required document: pan",
+        "Missing required document: selfie",
+        "No selfie verification",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T08:09:58.417Z"
+    },
+    "updatedAt": "2025-09-29T16:55:25.085Z"
+  },
+  "deee1aaafc219f5d": {
+    "merchantId": "deee1aaafc219f5d",
+    "status": "rejected",
+    "documents": {},
+    "createdAt": "2025-09-29T08:12:42.032Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T08:12:42.023Z",
+      "updatedAt": "2025-09-29T08:12:42.032Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.725,
+      "riskLevel": "high",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 1,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "No documents submitted",
+        "No selfie verification"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T16:55:25.730Z"
+    },
+    "updatedAt": "2025-09-29T16:55:26.487Z"
+  },
+  "f4143c3c170d3a57": {
+    "merchantId": "f4143c3c170d3a57",
+    "status": "rejected",
+    "documents": {
+      "bank": {
+        "path": "uploads/f4143c3c170d3a57_1759134107905_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T08:21:51.185Z",
+        "verifiedAt": "2025-09-29T08:21:51.185Z"
+      }
+    },
+    "createdAt": "2025-09-29T08:21:34.464Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T08:21:34.457Z",
+      "updatedAt": "2025-09-29T08:21:34.464Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.575,
+      "riskLevel": "medium",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.5,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "Missing required document: pan",
+        "Missing required document: selfie",
+        "No selfie verification"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification"
+      ],
+      "timestamp": "2025-09-29T08:21:51.185Z"
+    },
+    "updatedAt": "2025-09-29T16:55:30.729Z"
+  },
+  "34989a20362679c8": {
+    "merchantId": "34989a20362679c8",
+    "status": "rejected",
+    "documents": {},
+    "createdAt": "2025-09-29T08:24:42.912Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T08:24:42.904Z",
+      "updatedAt": "2025-09-29T08:24:42.912Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.725,
+      "riskLevel": "high",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 1,
+        "identityRisk": 0.9,
+        "businessRisk": 0.4,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "No documents submitted",
+        "No selfie verification"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit GST registration for additional verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T16:45:17.334Z"
+    },
+    "updatedAt": "2025-09-29T16:55:28.238Z"
+  },
+  "e332726156adf187": {
+    "merchantId": "e332726156adf187",
+    "status": "rejected",
+    "documents": {
+      "pan": {
+        "path": "uploads/e332726156adf187_1759134777107_1.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T08:32:59.993Z",
+        "verifiedAt": "2025-09-29T08:32:59.993Z"
+      },
+      "selfie": {
+        "path": "uploads/e332726156adf187_1759134795041_1.jpg",
+        "status": "pending",
+        "verificationNotes": "No face detected in selfie.",
+        "extractedData": {},
+        "riskScore": 0.8,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T08:33:18.081Z",
+        "verifiedAt": "2025-09-29T08:33:18.081Z",
+        "liveness": "unknown",
+        "qualityScore": 0,
+        "faceAttributes": {},
+        "imageQuality": {},
+        "safetyChecks": {
+          "passed": false
+        }
+      },
+      "gst": {
+        "path": "uploads/e332726156adf187_1759134805784_2.jpg",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T08:33:27.613Z",
+        "verifiedAt": "2025-09-29T08:33:27.613Z"
+      },
+      "bank": {
+        "path": "uploads/e332726156adf187_1759134815329_3.png",
+        "status": "pending",
+        "verificationNotes": "Document requires manual verification.",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.5,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T08:33:37.200Z",
+        "verifiedAt": "2025-09-29T08:33:37.200Z"
+      }
+    },
+    "createdAt": "2025-09-29T08:32:23.843Z",
+    "profile": {
+      "businessName": "tradersTesting",
+      "email": "prafulexperiment1@gmail.com",
+      "phoneNumber": "Helloworld@123",
+      "createdAt": "2025-09-29T08:32:23.592Z",
+      "updatedAt": "2025-09-29T08:32:23.843Z"
+    },
+    "riskAssessment": {
+      "overallRiskScore": 0.7024999999999999,
+      "riskLevel": "high",
+      "decision": "manual_review",
+      "reasons": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.575,
+        "identityRisk": 0.7,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.8,
+        "crossValidationRisk": 1
+      },
+      "riskFactors": [
+        "High-risk selfie document (80%)",
+        "Poor selfie quality: 0%",
+        "Incomplete business information",
+        "Suspiciously fast application completion"
+      ],
+      "recommendedActions": [
+        "Take a clearer selfie in good lighting conditions"
+      ],
+      "timestamp": "2025-09-29T08:33:37.200Z"
+    },
+    "updatedAt": "2025-09-29T16:55:44.619Z",
+    "crossValidation": {
+      "matches": [],
+      "mismatches": [],
+      "overallConsistency": 0,
+      "verified": true,
+      "riskFactors": []
+    }
+  },
+  "default-merchant-123": {
+    "merchantId": "default-merchant-123",
+    "status": "rejected",
+    "documents": {
+      "gst": {
+        "path": "uploads/default-merchant-123_1759136551716_4.png",
+        "status": "rejected",
+        "verificationNotes": "Rejected by admin - Please resubmit",
+        "extractedData": {
+          "fullText": ""
+        },
+        "riskScore": 0.9,
+        "confidenceScore": 0,
+        "uploadedAt": "2025-09-29T09:02:37.537Z",
+        "verifiedAt": "2025-09-29T16:54:44.864Z"
+      }
+    },
+    "createdAt": "2025-09-29T09:02:37.537Z",
+    "updatedAt": "2025-09-29T16:55:48.946Z",
+    "riskAssessment": {
+      "overallRiskScore": 0.71,
+      "riskLevel": "high",
+      "decision": "pending",
+      "reasons": [
+        "Missing required documents"
+      ],
+      "riskComponents": {
+        "documentRisk": 0.9,
+        "identityRisk": 0.9,
+        "businessRisk": 0.5,
+        "behavioralRisk": 0.4,
+        "crossValidationRisk": 0.5
+      },
+      "riskFactors": [
+        "Missing required document: pan",
+        "Missing required document: selfie",
+        "High-risk gst document (90%)",
+        "No selfie verification",
+        "Incomplete business information"
+      ],
+      "recommendedActions": [
+        "Submit PAN card for verification",
+        "Submit a clear selfie for verification",
+        "Submit bank account details for verification"
+      ],
+      "timestamp": "2025-09-29T16:54:44.864Z"
+    }
+  }
+}

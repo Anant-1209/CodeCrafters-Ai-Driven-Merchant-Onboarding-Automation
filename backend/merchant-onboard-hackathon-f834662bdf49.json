@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "merchant-onboard-hackathon",
+  "private_key_id": "f834662bdf497280bf5d03174e7201774e4dac30",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCr/HEAukAdkkF4\nAMAk+wOY1vDqCUGkoxW+rQVbTyk7mGoDY8+iM0h8L57RNoLZVlzggMxLvqbmflxf\nF6ZimBRQR1dTucGEmyw4U+OL/K5I5jZlbe2pN/KKIy1B71L1nvcSEcii0mNGmqxk\n89OMPtA39fJ27VoRxE7fuJl6Ci3U9rwJVqApVX2vtOlsz3PESWhy16HRN5ueR0KG\nnlpzXvpmhD84aHY40+DGmZgGmqjz9NTTjvz+pCx2cIzKdxn8eSd8glvrHvZF8byY\nm7dqPyvKccobYb/PaHllB5UQPYa2LzfwE+qXKsoBuHTFTY6bSiHVO33bfxlJ8SlM\n4zUhIg/FAgMBAAECggEAFif70NRYV9bp0JFcL4ds3l7rrg1045uk51RiiRxTcLDW\nZiBmH9G2fVUkgx71er/u+sxs7+HG85EEymABbdiEtBY0uv2xCf8e579wOYOwWjDa\nLMqddZGBET2t4hLNn68+dMP4vSJtwACYw+/2FAOwOagEIpZk5j62yzMnW9BS44k9\nWupZLFCJjRTsHq4ifRuvdMajdJJb5hSS6wsbFg+P26anNOC4g9lmmHIBz2EQGubS\nJ69IodAXiubrUeBQu8ssUunhT4H+kmUwD2KAJo1rCgTc85Y2ilC/omPmowHrvJ+x\ngNDCHuUoMHbgyudH+mneXFafP+pP62CldqSUFhYX4wKBgQDpUO68phuXnfajrgVk\nxM0KMPq8H19GAyLbhdyPCr8E5mnXFZPShZxwvPRVCHL5/3tqEWvrdHI7QVlMGHjf\nKzy6LKf5ITntDOSEHtqs1fhuG2Gl/HHmVhbkUfmtuhpftSXkwPfDaps48HnqkekC\n9YCmYrb6adLedzXidZ4bQ6WMDwKBgQC8tQySluiZvHbx5yt/NKohsOxCGnr3Dhor\nOwOeaAtTORWqcDQQkAAnKhi9HIAq1G03RvZmeQGNqW5KA+hjzHaV1Dsa2/Js9sam\nA+CKEI1h5Glp7DGeQpMNnRebEgSlgRoJ02T6Lqt67INBgutAr9Aej58vBHzrADy4\nI4hP3Oei6wKBgQDfzqTUDbsWG48Fv96opSfSiN1cK/PmYwfC8It8I2DNQIFyst4T\n6dsBQiBWmT5BldM7Ee8l85PIR41zM15vJTihlkii8D5yqBVkr3wwoygl5toqsRhJ\nTXe0GPaasZSvDkOFRZ3ltJOlcPhiDQkpr3pzIOpJF84RXOUxkIXTvXZF/QKBgQCm\nTvF7p5/rDZvOaat9+k4OTzyIrYm9fiI2A1aXHp8Mg3zCrwxTpHVeDs2qrRmPpZNz\nagjyGqbx0GawuGzwt1uzhE1qyHkI6xv7Z+NWCmxv37u/bDf2gDnVf6M0OVb6/aKT\nEkkl7EeYmCS9ccIfSlMi+/SQnWXyPk1FA5u4trk2bQKBgQCSG7PiSrit6iWz3fte\ne874pCVPxntjdbyKbsvSQdbMCwbq3l2hkSOkIHN6SvOL0wV+zXC2z5KXeAyklK06\n/Re5LjM78AKjZmoTnQ7zt9LeWC7LYUKvjCXmNo6u/5bUpxp46ulAT1dUHtixSjjm\nVamzFcllXaNFzobI55KRV827Ng==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@merchant-onboard-hackathon.iam.gserviceaccount.com",
+  "client_id": "108559397013662784264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40merchant-onboard-hackathon.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

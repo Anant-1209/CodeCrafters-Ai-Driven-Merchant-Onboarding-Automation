@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.17.1",
+    "@google-cloud/vision": "^4.0.1",
+    "@googlemaps/google-maps-services-js": "^3.4.2",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "multer": "^2.0.2",
+    "uuid": "^13.0.0"
+  },
+  "description": ""
+}
