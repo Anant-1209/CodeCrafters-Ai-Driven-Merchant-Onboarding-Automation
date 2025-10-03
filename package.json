@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@google-cloud/vision": "^5.3.3",
+    "@mui/material": "^7.3.2",
+    "firebase": "^12.3.0",
+    "firebase-admin": "^13.5.0",
+    "react-router-dom": "^7.9.3"
+  }
+}
