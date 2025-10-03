@@ -1,0 +1,184 @@
+.document-upload-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f8fa;
+  min-height: calc(100vh - 60px);
+}
+
+.document-upload-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.document-upload-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.document-upload-form h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #1976d2;
+  font-size: 18px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.document-uploader-section {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.uploaded-documents {
+  margin-bottom: 25px;
+}
+
+.no-docs-message {
+  color: #757575;
+  font-style: italic;
+}
+
+.uploaded-docs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.uploaded-doc-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #e8f5e9;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.doc-type {
+  font-weight: 500;
+}
+
+.doc-status {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #1565c0;
+}
+
+.submit-button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Success navigation styling */
+.success-navigation {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.success-navigation h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.dashboard-button {
+  display: block;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.dashboard-button.admin {
+  background-color: #1976d2;
+  color: white;
+}
+
+.dashboard-button.admin:hover {
+  background-color: #1565c0;
+}
+
+.dashboard-button.merchant {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.dashboard-button.merchant:hover {
+  background-color: #2d6a30;
+}
+
+.dashboard-button.new-upload {
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.dashboard-button.new-upload:hover {
+  background-color: #e0e0e0;
+}
